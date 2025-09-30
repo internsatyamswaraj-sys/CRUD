@@ -1,0 +1,31 @@
+{
+  "name": "crud-api-fastify-mysql",
+  "version": "1.0.0",
+  "description": "CRUD Operations API with Node.js, Fastify, TypeScript and MySQL",
+  "keywords": [],
+  "license": "ISC",
+  "author": "Satyam",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "node --loader ts-node/esm src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "migrate": "node --loader ts-node/esm src/config/migrations.ts"
+  },
+  "dependencies": {
+    "@fastify/swagger": "^8.15.0",
+    "@fastify/swagger-ui": "^1.10.2",
+    "dotenv": "^16.6.1",
+    "fastify": "^4.29.1",
+    "mysql2": "^3.15.1",
+    "sequelize": "^6.37.7"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.17",
+    "@typescript-eslint/eslint-plugin": "^6.9.1",
+    "@typescript-eslint/parser": "^6.9.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}
