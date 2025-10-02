@@ -24,7 +24,7 @@ const updateUser = async (id: number, data: any) => {
 //   const user = await User.findByPk(id);
 //   if (!user) throw new Error("User not found");
 
-//   // ✅ sirf bheje gaye fields ko update karega
+//   //  sirf bheje gaye fields ko update karega
 //   Object.assign(user, data);
 
 //   await user.save();

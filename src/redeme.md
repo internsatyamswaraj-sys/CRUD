@@ -1,12 +1,12 @@
 # CRUD Operations API – Node.js + MySQL
 
-## 📌 Overview
+##  Overview
 The purpose of this project is to help interns learn and implement backend API development using **Node.js (TypeScript + Fastify)** and **MySQL** as the database.  
 The APIs cover basic CRUD operations (**Create, Read, Update, Delete**) on two resources (**Users** and **Addresses**) with ORM-based database interactions.
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 - Build a simple but production-style backend application.  
 - Implement CRUD APIs with request/response validation.  
 - Use **TypeScript** for type safety.  

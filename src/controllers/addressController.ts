@@ -1,5 +1,5 @@
 import type { FastifyReply, FastifyRequest } from "fastify";
-import addressService from "../services/addressService.js"; // ✅ fixed path too
+import addressService from "../services/addressService.js"; 
 
 export const createAddress = async (req: FastifyRequest, reply: FastifyReply) => {
   try {

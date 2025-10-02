@@ -1,5 +1,5 @@
 import type { FastifyReply, FastifyRequest } from "fastify";
-import userService from "../services/userService.js"; // ✅ dropped `.js`
+import userService from "../services/userService.js"; 
 
 export const createUser = async (req: FastifyRequest, reply: FastifyReply) => {
   try {

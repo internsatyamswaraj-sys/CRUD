@@ -1,4 +1,4 @@
-// ✅ type-only import
+
 import type { FastifyInstance } from "fastify";
 import fastifySwagger from "@fastify/swagger";
 import fastifySwaggerUi from "@fastify/swagger-ui";
