@@ -8,9 +8,9 @@
   "type": "module",
   "main": "dist/index.js",
   "scripts": {
-  "dev": "node --loader ts-node/esm src/index.ts",
-  "build": "tsc"
-},
+    "dev": "node --loader ts-node/esm src/index.ts",
+    "build": "tsc"
+  },
   "dependencies": {
     "@fastify/swagger": "^8.15.0",
     "@fastify/swagger-ui": "^1.10.2",
